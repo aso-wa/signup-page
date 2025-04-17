@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  color: #fff;
+  color: #F9EDBF;
   background: url('Assets/desktop-bg.png')no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -23,7 +23,7 @@ body {
     background-image: url('Assets/iphone-bg.png');
     margin: 0;
     font-family: Arial, sans-serif;
-    color: #fff;
+    color: #F9EDBF;
   }
 }
 
@@ -33,7 +33,7 @@ body {
     background-image: url('Assets/android-bg.png');
     margin: 0;
     font-family: Arial, sans-serif;
-    color: #fff;
+    color: #F9EDBF;
   }
 }
 
@@ -49,20 +49,27 @@ body {
   text-align: center;
 }
 
+/* .content {
+  margin: 20%;
+} */
+
 img {
-  height: 106px;
+  height: 120px;
 }
 
 h1 {
   margin-top: 2rem;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
 }
 
 p.description {
   font-size: 1.1rem;
   margin: 1.5rem 0;
-  color: #ddd;
+  color: #F9EDBF;
+}
+.mc_embed_signup {
+  margin: 1.5rem 0;
 }
 
 .cta-button {
@@ -84,10 +91,11 @@ p.description {
   border: none;
   border-radius: 0.3rem;
   margin-right: 0.5rem;
+  background-color: #F9EDBF;
 }
 
 .how-it-works {
-  background-color: #fff;
+  background-color: #F9EDBF;
   color: #000;
   padding: 2rem 1rem;
 }
