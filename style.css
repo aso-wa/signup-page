@@ -37,8 +37,9 @@ body {
   }
 }
 
+
 .overlay {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.426);
   padding: 3rem 1rem;
   min-height: 100vh;
 }
@@ -52,6 +53,7 @@ body {
 /* .content {
   margin: 20%;
 } */
+
 
 img {
   height: 120px;
@@ -70,6 +72,17 @@ p.description {
 }
 .mc_embed_signup {
   margin: 1.5rem 0;
+}
+
+/* .test{
+  text-align: center;
+} */
+
+.info-bullet-points {
+  list-style-type: none;
+  max-width:35%;
+  margin: auto;
+  text-align: left;
 }
 
 .cta-button {
@@ -93,6 +106,9 @@ p.description {
   margin-right: 0.5rem;
   background-color: #F9EDBF;
 }
+/* .mc-field-group {
+  background-color: pink;
+} */
 
 .how-it-works {
   background-color: #F9EDBF;
