@@ -21,6 +21,8 @@ body {
 @media (max-width: 1024px) {
   .background-img {
     background-image: url('Assets/iphone-bg.png');
+    width: 540px;
+    height: 960;
     margin: 0;
     font-family: Arial, sans-serif;
     color: #F9EDBF;
